@@ -10,6 +10,7 @@ collections:
     label: "Label"
     files:
       - label: "Page to edit"
+        name: "editablepage"
         file: "index.html"
         fields: 
           - {label: "Title", name: "title", widget: "string"}
