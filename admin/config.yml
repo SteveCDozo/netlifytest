@@ -11,8 +11,11 @@ collections:
     files:
       - label: "Page To Edit"
         name: "editablepage"
-        file: "articlelist.json"
-        widget: list
+        file: "articlelist.json"        
         fields: 
-          - {label: "Article Name", name: "title", widget: "string"}
-          - {label: "Article File", name: "filename", widget: "file"}
+          - label: Article Section
+            name: article_section
+            widget: list
+            fields:
+              - {label: "Article Name", name: "title", widget: "string"}
+              - {label: "Article File", name: "filename", widget: "file"}
