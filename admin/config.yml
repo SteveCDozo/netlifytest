@@ -11,7 +11,7 @@ collections:
     files:
       - label: "American Match Safes"
         name: "american_section"
-        file: "articlelist.json"        
+        file: "json/american.json"        
         fields: 
           - label: "American Match Safe articles"
             name: "american"
@@ -21,7 +21,7 @@ collections:
               - {label: "File", name: "path", widget: "file"}
       - label: "European Match Safes (Vestas)"
         name: "european_section"
-        file: "articlelist.json"        
+        file: "json/european.json"        
         fields: 
           - label: "European Match Safe articles"
             name: "european"
@@ -31,7 +31,7 @@ collections:
               - {label: "File", name: "path", widget: "file"}
       - label: "Japanese Match Safes"
         name: "japanese_section"
-        file: "articlelist.json"        
+        file: "json/Japanese.json"        
         fields: 
           - label: "Japanese Match Safe articles"
             name: "japanese"
@@ -41,7 +41,7 @@ collections:
               - {label: "File", name: "path", widget: "file"}
       - label: "Global Match Safes"
         name: "global_section"
-        file: "articlelist.json"        
+        file: "json/global.json"        
         fields: 
           - label: "Global Match Safe articles"
             name: "global"
@@ -51,7 +51,7 @@ collections:
               - {label: "File", name: "path", widget: "file"}
       - label: "Match Holders"
         name: "holder_section"
-        file: "articlelist.json"        
+        file: "json/holders.json"        
         fields: 
           - label: "Match Holder articles"
             name: "holder"
